@@ -1,0 +1,30 @@
+h1{
+  font-family : 'Inconsolata', monospace;
+}
+li{
+  font-family : 'Inconsolata', monospace;
+}
+a{
+  font-weight: bold;
+  margin-right: 4rem;
+  font-family : 'Inconsolata', monospace;
+  color: lawngreen;
+}
+@font-face {
+  font-family: ShareTechMono;
+  //src: url("../font/share_tech_mono/ShareTechMono-Regular.ttf");
+  src: url("../../../font/share_tech_mono/ShareTechMono-Regular.ttf");
+}
+
+@font-face {
+  font-family: Monofonto;
+  src: url("../../../font/monofonto/monofonto.ttf");
+}
+
+header, p {
+  font-family: "Monofonto", serif;
+}
+
+#perk-attribute-description-nerd_rage {
+  font-size: 0.4rem;
+}

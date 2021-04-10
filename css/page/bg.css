@@ -1,4 +1,20 @@
 /* line 1, ../../wamp/www/pip_boy/pip_boy_bibi/pip_boy_bibi/css/scss/page/bg.scss */
+*,
+*::after,
+*::before {
+  list-style: none;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+/* line 12, ../../wamp/www/pip_boy/pip_boy_bibi/pip_boy_bibi/css/scss/page/bg.scss */
+html {
+  font-size: 1rem;
+}
+
+/* line 15, ../../wamp/www/pip_boy/pip_boy_bibi/pip_boy_bibi/css/scss/page/bg.scss */
 body {
   background-color: black;
   color: lawngreen;

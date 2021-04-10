@@ -1,7 +1,194 @@
+/* line 1, ../../wamp/www/pip_boy/pip_boy_bibi/pip_boy_bibi/css/scss/layout/style.scss */
+h1 {
+  font-family: 'Inconsolata', monospace;
+}
+
+/* line 4, ../../wamp/www/pip_boy/pip_boy_bibi/pip_boy_bibi/css/scss/layout/style.scss */
+li {
+  font-family: 'Inconsolata', monospace;
+}
+
+/* line 7, ../../wamp/www/pip_boy/pip_boy_bibi/pip_boy_bibi/css/scss/layout/style.scss */
+a {
+  font-weight: bold;
+  margin-right: 4rem;
+  font-family: 'Inconsolata', monospace;
+  color: lawngreen;
+}
+
+@font-face {
+  font-family: ShareTechMono;
+  src: url("../../../font/share_tech_mono/ShareTechMono-Regular.ttf");
+}
+
+@font-face {
+  font-family: Monofonto;
+  src: url("../../../font/monofonto/monofonto.ttf");
+}
+
+/* line 24, ../../wamp/www/pip_boy/pip_boy_bibi/pip_boy_bibi/css/scss/layout/style.scss */
+header, p {
+  font-family: "Monofonto", serif;
+}
+
+/* line 28, ../../wamp/www/pip_boy/pip_boy_bibi/pip_boy_bibi/css/scss/layout/style.scss */
+#perk-attribute-description-nerd_rage {
+  font-size: 0.4rem;
+}
+
+/* line 1, ../../wamp/www/pip_boy/pip_boy_bibi/pip_boy_bibi/css/scss/layout/header_lines.scss */
+.header-lines {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  top: -2rem;
+  opacity: 0.8;
+  z-index: -3;
+  filter: grayscale(100%) brightness(80%) sepia(100%) hue-rotate(50deg) saturate(1000%) contrast(0.8);
+}
+
+/* line 11, ../../wamp/www/pip_boy/pip_boy_bibi/pip_boy_bibi/css/scss/layout/header_lines.scss */
+#header-line-before {
+  position: absolute;
+  left: -22.5rem;
+}
+
+/* line 16, ../../wamp/www/pip_boy/pip_boy_bibi/pip_boy_bibi/css/scss/layout/header_lines.scss */
+#header-line-after {
+  position: absolute;
+  left: 15rem;
+}
+
+/* line 1, ../../wamp/www/pip_boy/pip_boy_bibi/pip_boy_bibi/css/scss/layout/header.scss */
+header {
+  text-transform: uppercase;
+  position: relative;
+}
+
+/* line 6, ../../wamp/www/pip_boy/pip_boy_bibi/pip_boy_bibi/css/scss/layout/header.scss */
+.header {
+  margin-left: 10rem;
+  max-width: 37.8rem;
+}
+
+/* line 11, ../../wamp/www/pip_boy/pip_boy_bibi/pip_boy_bibi/css/scss/layout/header.scss */
+.tabs, .sub-tabs {
+  display: flex;
+  align-items: center;
+}
+
+/* line 16, ../../wamp/www/pip_boy/pip_boy_bibi/pip_boy_bibi/css/scss/layout/header.scss */
+.header {
+  margin-top: 5rem;
+}
+
+/* line 20, ../../wamp/www/pip_boy/pip_boy_bibi/pip_boy_bibi/css/scss/layout/header.scss */
+.tabs li > a,
+.sub-tabs li > a {
+  font-size: 2.2rem;
+  color: var(--pip-boy-primary-color);
+}
+
+/* line 26, ../../wamp/www/pip_boy/pip_boy_bibi/pip_boy_bibi/css/scss/layout/header.scss */
+.tabs li > a {
+  font-weight: bold;
+  margin-right: 4rem;
+}
+
+/* line 31, ../../wamp/www/pip_boy/pip_boy_bibi/pip_boy_bibi/css/scss/layout/header.scss */
+.sub-tabs {
+  display: none;
+}
+
+/* line 35, ../../wamp/www/pip_boy/pip_boy_bibi/pip_boy_bibi/css/scss/layout/header.scss */
+.sub-tabs-active {
+  display: flex;
+  align-items: center;
+}
+
+/* line 40, ../../wamp/www/pip_boy/pip_boy_bibi/pip_boy_bibi/css/scss/layout/header.scss */
+.sub-tabs li > a {
+  margin-right: 0.8rem;
+}
+
 /* line 1, ../../wamp/www/pip_boy/pip_boy_bibi/pip_boy_bibi/css/scss/page/bg.scss */
+*,
+*::after,
+*::before {
+  list-style: none;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+/* line 12, ../../wamp/www/pip_boy/pip_boy_bibi/pip_boy_bibi/css/scss/page/bg.scss */
+html {
+  font-size: 1rem;
+}
+
+/* line 15, ../../wamp/www/pip_boy/pip_boy_bibi/pip_boy_bibi/css/scss/page/bg.scss */
 body {
   background-color: black;
   color: lawngreen;
+}
+
+/* line 1, ../../wamp/www/pip_boy/pip_boy_bibi/pip_boy_bibi/css/scss/page/console.scss */
+html,
+body {
+  margin: 0 auto;
+  height: 100%;
+}
+
+/* line 7, ../../wamp/www/pip_boy/pip_boy_bibi/pip_boy_bibi/css/scss/page/console.scss */
+pre {
+  padding: 0;
+  margin: 0;
+}
+
+/* line 12, ../../wamp/www/pip_boy/pip_boy_bibi/pip_boy_bibi/css/scss/page/console.scss */
+.load {
+  margin: 0 auto;
+  min-height: 100%;
+  width: 100%;
+  background: black;
+}
+
+/* line 19, ../../wamp/www/pip_boy/pip_boy_bibi/pip_boy_bibi/css/scss/page/console.scss */
+.term {
+  font-family: monospace;
+  color: lawngreen;
+  opacity: 0.8;
+  font-size: 2em;
+  overflow-y: auto;
+  overflow-x: hidden;
+  padding-top: 10px;
+  padding-left: 20px;
+}
+
+/* line 30, ../../wamp/www/pip_boy/pip_boy_bibi/pip_boy_bibi/css/scss/page/console.scss */
+.term:after {
+  content: "_";
+  opacity: 1;
+  animation: cursor 1s infinite;
+}
+
+@keyframes cursor {
+  0% {
+    opacity: 0;
+  }
+  40% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  90% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */

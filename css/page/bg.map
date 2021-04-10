@@ -5,8 +5,8 @@
 		"../scss/page/bg.scss"
 	],
 	"sourcesContent": [
-		"body {\r\n  background-color: black;\r\n  color: lawngreen;\r\n}\r\n"
+		"*,\r\n*::after,\r\n*::before {\r\n  list-style: none;\r\n  text-decoration: none;\r\n  margin: 0;\r\n  padding: 0;\r\n  box-sizing: inherit;\r\n}\r\n\r\n\r\nhtml {\r\n  font-size: 1rem;\r\n}\r\nbody {\r\n  background-color: black;\r\n  color: lawngreen;\r\n}\r\n\r\n"
 	],
 	"names": [],
-	"mappings": ";AAAA,AAAA,IAAI,CAAC;EACH,gBAAgB,EAAE,KAAK;EACvB,KAAK,EAAE,SAAS;CACjB"
+	"mappings": ";AAAA,AAAA,CAAC;AACD,CAAC,AAAA,OAAO;AACR,CAAC,AAAA,QAAQ,CAAC;EACR,UAAU,EAAE,IAAI;EAChB,eAAe,EAAE,IAAI;EACrB,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;EACV,UAAU,EAAE,OAAO;CACpB;;;AAGD,AAAA,IAAI,CAAC;EACH,SAAS,EAAE,IAAI;CAChB;;;AACD,AAAA,IAAI,CAAC;EACH,gBAAgB,EAAE,KAAK;EACvB,KAAK,EAAE,SAAS;CACjB"
 }
